@@ -32,6 +32,5 @@ sudo systemctl enable battery.service
 To change the threshold, edit the values of:
 
 ```python
-bat_charge_start_threshold.write("75")
 bat_charge_end_threshold.write("85")
 ```
