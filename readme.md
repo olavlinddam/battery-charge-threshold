@@ -1,4 +1,7 @@
-### Making the script run automatically
+### This script will set the charging threshold for your laptop and set the power profile on startup.
+It will set the power profile to either performance or battery, depending on whether your laptop is on AC or not. It will also set the charging threshold, but that will only work if your laptop supports it.
+
+#### Making the script run automatically
 To automate running this script create a config file at:
 
 ```bash
